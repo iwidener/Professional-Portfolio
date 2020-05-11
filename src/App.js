@@ -4,19 +4,25 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Jumbotron from "./components/Jumbotron";
+import Home from "./pages/About";
+//import About from "./pages/About";
+//import Portfolio from "./pages/Portfolio";
+//import Contact from "./pages/Contact";
+
+//import Footer from "./components/Footer";
+//import Jumbotron from "./components/Jumbotron";
 
 function App() {
   return (
     <Router>
       <div>
         <Navbar />
-        <Route exact path="/" component={About} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="About" component={About} />
         <Route exact path="Portfolio" component={Portfolio} />
         <Route exact path="Contact" component={Contact} />
-        <Jumbotron />
-        <Footer />
+        {/* <Jumbotron /> */}
+        {/* <Footer /> */}
       </div>
     </Router>
   );
