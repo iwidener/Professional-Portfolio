@@ -5,11 +5,7 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Home from "./pages/About";
-//import About from "./pages/About";
-//import Portfolio from "./pages/Portfolio";
-//import Contact from "./pages/Contact";
-
-//import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 //import Jumbotron from "./components/Jumbotron";
 
 function App() {
@@ -22,7 +18,7 @@ function App() {
         <Route exact path="Portfolio" component={Portfolio} />
         <Route exact path="Contact" component={Contact} />
         {/* <Jumbotron /> */}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );

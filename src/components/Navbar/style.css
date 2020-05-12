@@ -2,3 +2,10 @@ nav.navbar.navbar-default {
     margin-bottom: 0;
   }
   
+  a.navlink {
+    color: wheat;
+  }
+
+  a.navbar-brand {
+    color: wheat;
+  }
