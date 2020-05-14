@@ -1,0 +1,18 @@
+.card {
+    width: 14rem
+}
+
+h6.title {
+    color: black;
+}
+
+img.card-img-top {
+   width: 14rem; 
+}
+
+a.btn.btn-success {
+    width: 85px;
+    font-size: 10px;
+    margin-right: 5px;
+
+}
