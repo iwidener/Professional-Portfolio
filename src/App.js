@@ -6,7 +6,8 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Home from "./pages/About";
 import Footer from "./components/Footer";
-//import Jumbotron from "./components/Jumbotron";
+// import Jumbotron from "./components/Jumbotron";
+import "./App.css";
 
 function App() {
   return (
@@ -14,10 +15,14 @@ function App() {
       <div>
         <Navbar />
         <Route exact path="/" component={Home} />
-        <Route exact path="About" component={About} />
-        <Route exact path="Portfolio" component={Portfolio} />
-        <Route exact path="Contact" component={Contact} />
-        {/* <Jumbotron /> */}
+        <Route exact path="/about" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
+        {/* <div>
+          <Jumbotron>
+            {About}
+          </Jumbotron>
+        </div> */}
         <Footer />
       </div>
     </Router>

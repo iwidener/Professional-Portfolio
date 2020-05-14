@@ -6,6 +6,10 @@ nav.navbar.navbar-default {
     color: wheat;
   }
 
+  a.nav-link.active {
+    color: wheat;
+  }
+
   a.navbar-brand {
     color: wheat;
   }
