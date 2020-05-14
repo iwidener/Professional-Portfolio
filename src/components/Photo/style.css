@@ -1,0 +1,9 @@
+div.photo {
+    height: 350px;
+    width: 350px;
+    float: left;
+    background-image: url(./bee.jpg);
+    margin-right: 30px;
+    /* border-radius: 3%; */
+
+}
