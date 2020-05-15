@@ -4,7 +4,7 @@ import "./style.css";
 function Jumbotron({ children }) {
   return (
     <div
-      style={{ height: 560, clear: "both", paddingTop: 120, textAlign: "justify" }}
+      style={{ clear: "both", paddingTop: 120, textAlign: "justify" }}
       className="jumbotron border border-success"
     >
       {children}

@@ -3,6 +3,7 @@ div.photo {
     width: 350px;
     float: left;
     background-image: url(./bee.jpg);
+    background-size: cover;
     margin-right: 30px;
     /* border-radius: 3%; */
 
