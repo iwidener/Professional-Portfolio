@@ -4,7 +4,7 @@ import img2 from "./visual-presentation2.png";
 import img3 from "./visual-presentation3.png";
 import img4 from "./visual-presentation4.png";
 import img5 from "./visual-presentation5.png";
-// import img6 from "./vusual-presentation6.png";
+import img6 from "./visual-presentation6.png";
 import "./style.css";
 
 function Card(props) {
@@ -12,7 +12,7 @@ function Card(props) {
 
         <div className="cards">
 
-            <div className="container">
+            <div className="col-md-3">
                 <div className="card" id="project1">
                     <img src={img1} alt="visual-presentation1" className="card-img-top" />
 
@@ -26,7 +26,8 @@ function Card(props) {
                 </div>
             </div>
 
-            <div className="container">
+           
+            <div className="col-md-3">
                 <div className="card" id="project2">
                     <img src={img2} alt="visual-presentation2" className="card-img-top" />
 
@@ -40,7 +41,8 @@ function Card(props) {
                 </div>
             </div>
 
-            <div className="container">
+            
+            <div className="col-md-3">
                 <div className="card" id="project3">
                     <img src={img3} alt="visual-presentation3" className="card-img-top" />
 
@@ -54,7 +56,8 @@ function Card(props) {
                 </div>
             </div>
 
-            <div className="container">
+         
+            <div className="col-md-3">
                 <div className="card" id="project4">
                     <img src={img4} alt="visual-presentation4" className="card-img-top" />
 
@@ -68,7 +71,8 @@ function Card(props) {
                 </div>
             </div>
 
-            <div className="container">
+           
+            <div className="col-md-3">
                 <div className="card" id="project5">
                     <img src={img5} alt="visual-presentation5" className="card-img-top" />
 
@@ -82,7 +86,8 @@ function Card(props) {
                 </div>
             </div>
 
-            {/* <div className="container">
+          
+            <div className="col-md-3">
                 <div className="card" id="project6">
                     <img src={img6} alt="visual-presentation6" className="card-img-top" />
 
@@ -94,7 +99,7 @@ function Card(props) {
                         <a href="https://immense-garden-32852.herokuapp.com/" className="btn btn-success">Deployed Link</a>
                     </div>
                 </div>
-            </div> */}
+            </div>
             
         </div>
 

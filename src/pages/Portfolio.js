@@ -9,11 +9,7 @@ function About() {
         <div>
             <Jumbotron>
                 <Row>
-                    <div>
-                        <Column size="md-4">
-                            <Card />
-                        </Column>
-                    </div>
+                    <Card />
                 </Row>
             </Jumbotron>
         </div>
