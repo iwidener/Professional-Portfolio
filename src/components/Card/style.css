@@ -4,16 +4,6 @@
     flex-wrap: wrap;
 }
 
-#project1.card
-#project2.card
-#project3.card
-#project4.card
-#project5.card
-#project6.card
-{
-    width: 8rem;
-}
-
 h6.title {
     color: black;
 }
@@ -23,10 +13,11 @@ img.card-img-top {
 }
 
 a.btn.btn-success {
-    width: 85px;
+    width: 77px;
     font-size: 10px;
-    margin-left: 5px;
-    margin-right: 11px;
+    margin-left: 1px;
+    margin-right: 2px;
+    text-align: justify;
 
 }
 
