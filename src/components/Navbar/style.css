@@ -4,12 +4,16 @@ nav.navbar.navbar-default {
   
   a.nav-link {
     color: wheat;
+    font-size: 20px;
   }
 
   a.nav-link.active {
     color: wheat;
+    font-size: 20px;
   }
 
   a.navbar-brand {
     color: wheat;
+    font-size: 30px;
+    font-weight: bold;
   }
