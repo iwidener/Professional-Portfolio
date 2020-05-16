@@ -5,7 +5,7 @@ import "./style.css";
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-secondary bg-secondary">
-            <Link className="navbar-brand" to="/">Name</Link>
+            <Link className="navbar-brand" to="/">Inna Widener</Link>
             <div>
                 <ul className="navbar-nav">
 

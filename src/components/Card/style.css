@@ -1,4 +1,15 @@
-.card {
+.cards {
+    display: flex; 
+    width: auto;
+}
+
+#project1.card
+#project2.card
+#project3.card
+#project4.card
+#project5.card
+/* #project6.card  */
+{
     width: 14rem;
 }
 
@@ -7,12 +18,21 @@ h6.title {
 }
 
 img.card-img-top {
-   width: 14rem; 
+   width: 14rem;;
 }
 
 a.btn.btn-success {
     width: 85px;
     font-size: 10px;
-    margin-right: 5px;
+    margin-left: 5px;
+    margin-right: 11px;
 
+}
+
+div.card-body.text-dark {
+    padding: 10px;
+}
+
+p.card-text.text-secondary {
+    font-size: 12px;
 }
