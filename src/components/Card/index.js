@@ -47,7 +47,7 @@ function Card(props) {
                     <img src={img3} alt="visual-presentation3" className="card-img-top" />
 
                     <div className="card-body text-dark">
-                        <h6 className="title">Work Day Scheduler</h6>
+                        <h6 className="title">Password Generator</h6>
                         <p className="card-text text-secondary">
                             An app for the employee with access to sensitive data to generate a strong and secure password.</p>
                         <a href="https://github.com/iwidener/Work-Day-Scheduler" className="btn btn-success">GitHub Repo</a>
@@ -62,7 +62,7 @@ function Card(props) {
                     <img src={img4} alt="visual-presentation4" className="card-img-top" />
 
                     <div className="card-body text-dark">
-                        <h6 className="title">Password Generator</h6>
+                        <h6 className="title">Work Day Scheduler</h6>
                         <p className="card-text text-secondary">
                             An app for the employee with a busy schedule to add important events and manage time effectively.</p>
                         <a href="https://github.com/iwidener/Password-Generator" className="btn btn-success">GitHub Repo</a>
