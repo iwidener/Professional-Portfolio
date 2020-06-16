@@ -16,9 +16,7 @@ function About() {
 
                     </Column>
                 </Row>
-
             </Jumbotron>
-
         </div>
     )
 }

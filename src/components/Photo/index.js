@@ -4,7 +4,7 @@ import "./bee.jpg";
 
 function Photo(props) {
   return (
-    <div className="photo" backgroundImage="./bee.jpg">
+    <div className="photo" backgroundimage="./bee.jpg">
       {props.children}
     </div>
   );
