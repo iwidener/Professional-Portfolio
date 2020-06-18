@@ -27,3 +27,11 @@ div.github-link {
 div.linkedin-link {
   padding: 0px;
 }
+
+div.bio-about {
+  text-align: justify;
+}
+
+div.contact-message {
+  text-align: center;
+}
