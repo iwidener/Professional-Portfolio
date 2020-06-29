@@ -10,9 +10,7 @@ function About() {
             <Jumbotron>
                 <Row>
                     <Column size="md-12">
-                        <div className="contact-message">Please, contact me at iwide2019@gmail.com and I will reply you right away. I'm looking forward to hearing from you. Thank you for visiting my web page!
-                        </div>
-
+                        <div className="contact-message">Please, contact me at iwide2019@gmail.com and I will reply you right away. I'm looking forward to hearing from you. Thank you for visiting my web page!</div>
                     </Column>
                 </Row>
             </Jumbotron>
