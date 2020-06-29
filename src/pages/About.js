@@ -20,11 +20,10 @@ function About() {
 
                     <Column size="md-8">
                         <div className="bio-about">
+                            <p>Hello!</p>
                             <p>
-                                My dream is to become a Full Stack Web Developer.</p>
-                            <p>
-                                I have a significant experience in Linguistics and
-                                Educational fields. Worked as a translator/interpreter in the watch company, translated into English two documentaries on a volunteer basis, have a professional experience as a substitute teacher in the international and public schools.</p>
+                                I am a Full Stack Web Developer with a significant experience in Linguistics and
+                                Educational fields. Worked as a translator/interpreter for a watch company, translating two documentaries into English on a volunteer basis, and have additional professional experience as a substitute teacher in the international and public schools.</p>
                             <p>
                                 Compelled to succeed in the technological world and to embrace the new computer languages. Excited to write the code, develop responsive websites as well as deliver outstanding and functional web experiences.</p>
                             <p>
