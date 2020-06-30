@@ -10,11 +10,15 @@ function About() {
             <Jumbotron>
                 <Row>
                     <Column size="md-12">
-                        <div className="contact-message">Please, contact me at iwide2019@gmail.com and I will reply you right away. I'm looking forward to hearing from you. Thank you for visiting my web page!</div>
+                        <div className="contact-message">
+                            <p>I am open to work and collaborate on new coding challenges. I'm looking forward to hearing from you.</p>
+                            <p> Please, send me a <a href="mailto:iwide2019@gmail.com" target="_blank" rel="noopener noreferrer">message</a> and I will reply you right away.</p>
+                            <p>Thank you for visiting my web page!</p>
+                        </div>
                     </Column>
                 </Row>
             </Jumbotron>
-        </div>
+        </div >
     )
 }
 

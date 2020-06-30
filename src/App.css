@@ -28,6 +28,14 @@ div.linkedin-link {
   padding: 0px;
 }
 
+p {
+  font-size: 16px;
+}
+
+a {
+  text-decoration-line: none !important;
+}
+
 div.bio-about {
   text-align: justify;
 }
