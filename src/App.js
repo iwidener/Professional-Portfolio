@@ -8,6 +8,10 @@ import Home from "./pages/About";
 import Footer from "./components/Footer";
 import "./App.css";
 
+let val;
+val = window.scrollY;
+console.log(val);
+
 function App() {
   return (
     <Router>

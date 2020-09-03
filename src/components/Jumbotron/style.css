@@ -4,6 +4,6 @@ div.jumbotron {
     margin-right: 15%;
     padding-left: 30px;
     padding-right: 40px;
-    height: auto;
-    width: 70%;
+    /* height: auto;
+    width: 70%; */
 }
